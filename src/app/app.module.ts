@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +11,7 @@ import { IngresoAdminComponent } from './components/forms/ingreso-admin/ingreso-
 import { OtrosComponent } from './components/otros/otros.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { BarraNavegacionComponent } from './components/otros/barra-navegacion/barra-navegacion.component';
+
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { BarraNavegacionComponent } from './components/otros/barra-navegacion/ba
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
