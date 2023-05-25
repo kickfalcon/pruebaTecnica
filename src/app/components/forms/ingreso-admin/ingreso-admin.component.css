@@ -1,0 +1,24 @@
+.btn-container{
+   margin-top:1rem;
+}
+.card{
+   width: 50vh;
+   height: 35vh;
+}
+@media(max-width:320px){
+   .card{
+      width: auto;
+      height: 44vh;
+   }
+ }
+ @media(max-width:375px){
+   .card{
+      width: auto;
+      height: 44vh;
+   }
+ }
+ @media(max-width:425px){
+   .card{
+      height: 46vh;
+   }
+ }

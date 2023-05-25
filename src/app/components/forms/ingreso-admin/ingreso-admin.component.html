@@ -1,0 +1,30 @@
+<ng-container>
+    <div class="card position-relative">
+        <div class="card-body text-center" >
+            <h2>¿Eres colaborador?</h2>
+            <p>Inicia sesión</p>
+            <form action="">
+                <div class="mb-6 row">
+                    <label for="folio" class="col-sm-3 col-form-label">Usuario</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="folio"
+                        placeholder="Ingrese usuario" required>
+                    </div>
+                </div>
+                <br>
+                <div class="mb-6 row">
+                    <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-6">
+                      <input type="password" class="form-control" id="inputPassword" minlength="8"
+                       maxlength="12" placeholder="Ingrese su contraseña" required>
+                    </div>
+                </div>
+                <div class="mb-6 row">
+                    <div class="btn-container col-sm-6">
+                        <button class="btn btn-success" type="submit">Ingresar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</ng-container>
